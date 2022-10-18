@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Eight Years of Docked Bikeshare</title>
+
+		<!--put your external stylesheet links here-->
+         <link href="//unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet">
+         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+     integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+     crossorigin=""/>
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+         <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+     integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+     crossorigin=""></script>
+	</head>
+
+	<body>
+		<!--put your initial page content here-->
+	<div class="header"></div>
+        <div class="header-cont">
+            <div style="color: cadetblue"><center><h1>Bikeshare Docks by US City, 2015-2022</h1></center></div>
+               <center><h3>according to the US DOT Bureau of Transportation Statistics</h3></center>
+        </div>
+        <div id="mapcontainer">
+	       <div id="map" class="leaflet-container"></div>
+           <div id="slider"></div>
+            	<div id="source"></div>
+        <div class="source-cont">
+            <div style="color: cadetblue"><left></div>
+               <h5><p>Source: <a href="https://catalog.data.gov/dataset/docked-bikeshare-ridership-by-system-year-and-month"> US DOT BTS</a></p></h5>
+            <div id="slider"></div>Bikeshare programs exist in most major cities around the country, providing an easy way for locals and visitors alike to get around on two wheels without needing their own bicycle. Some cities have seen explosive growth over the past eight years, others have shrank or eliminated their program.  Toggle <a href="https://www.bikeleague.org/">the League of American Bicyclists' 2022 Top 5 and Bottom 5 Bike Friendly States</a> for an additional angle.
+                
+        </div>
+        
+
+		<!--scripts-->
+ <script src="//unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="js/leaflet-search-master/src/leaflet-search.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="lib/leaflet/leaflet.js"></script>
+        <script src="data/stateData.js"></script>
+		<script src="js/main2.js"></script>
+        
+	</body>
+	</html>

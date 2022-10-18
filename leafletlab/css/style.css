@@ -1,0 +1,86 @@
+/* Stylesheet by Vicky Johnson-Dahl, 2022 */
+
+#mapcontainer {
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    font-family: Gill Sans, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: Gill Sans, sans-serif;
+}
+
+#map {
+    height: 450px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+/*    z-index: 9;*/
+    font-family: Gill Sans, sans-serif;
+}
+
+
+.leaflet-popup-content p {
+    margin: 0.4em 0;
+}
+
+
+#yeartitle {
+    width: 350px;
+    height: 25px;
+    position: center;
+    bottom: 25px;
+    left: 10px;
+}
+
+#slider {
+    width: 350px;
+    height: 25px;
+    line-height: 5px;
+    text-align: center;
+    position: relative;
+/*    left: 15px;*/
+
+}
+
+#source {
+    position: relative;
+}
+
+.sequence-control-container {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.legend-control-container {
+    width: 180px;
+    height: 180px;
+    font-size: 20px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 5px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.range-slider {
+    width: 250px;
+    text-align: center;
+}
+
+#forward {
+    float: right;
+
+}
+
+#reverse {
+    float: left;
+
+}
